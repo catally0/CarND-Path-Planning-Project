@@ -28,6 +28,8 @@ Although the trajectory strategy is feasible, it can still improve in the follow
 - If the ego runs in the most left/right lane and there're two slow cars, one running in front of the ego vehicles, one in the middle lane, the ego vehicle cannot slow down and change to middle lane and then to the other side of the road.
 - Speed up during lane changing, just like human being does.
 - Take emergency actions, when there's an accident.
+- If there's a super sharp curve, the vehicle won't slow down, which may trigger the max_acc and/or max_jerk.
+
 
 By the way, it seems the simulator generates a HUUUUUUGE file on my local drive. Please remeber to delete
 ~/.config/unity3d/Udacity/self_driving_car_nanodegree_program/Player.log

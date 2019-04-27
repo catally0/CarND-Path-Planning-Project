@@ -299,7 +299,7 @@ int main() {
                     current_lane_CIPV_dist = check_car_s - car_s;
                     current_lane_CIPV_index = i;
                     target_speed = check_speed;
-                    std::cout<<"CIPV id:"<<i<<"\t dist:"<<current_lane_CIPV_dist<<std::endl;
+                    //std::cout<<"CIPV id:"<<i<<"\t dist:"<<current_lane_CIPV_dist<<std::endl;
                   }
                   car_in_front = true;
                 }
